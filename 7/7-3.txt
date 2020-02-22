@@ -1,0 +1,4 @@
+current = int(input('Current floor: '))
+destination = int(input('Destination floor: '))
+for i in range(current, destination + 1):
+  print('Level', i)

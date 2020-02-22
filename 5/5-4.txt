@@ -1,0 +1,5 @@
+line = input('Message? ')
+print(line[0], end='')
+for i in range(3, len(line), 3):
+  print(' ' + line[i], end='')
+print()

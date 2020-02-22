@@ -1,0 +1,5 @@
+n = int(input('Time to launch: '))
+print('Counting down ...')
+for i in range(n, 0, -1):
+  print(i, '...')
+print('Lift Off!')

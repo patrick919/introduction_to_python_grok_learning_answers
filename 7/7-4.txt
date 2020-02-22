@@ -1,0 +1,6 @@
+n = int(input('How many steps? '))
+
+print('__')
+for i in range(n - 1):
+  print('  '*(i + 1) + '|_')
+print('__'*n + '|')

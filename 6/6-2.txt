@@ -1,0 +1,3 @@
+data = input('Which days had rain? ')
+days = data.split()
+print('Number of days without rain:', 7 - len(days))

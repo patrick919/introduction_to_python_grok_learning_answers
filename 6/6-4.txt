@@ -1,0 +1,8 @@
+expenses = input('Enter the expenses: ')
+expenses = expenses.split()
+
+total = 0
+for expense in expenses:
+  total += int(expense)
+
+print('Total: $' + str(total))

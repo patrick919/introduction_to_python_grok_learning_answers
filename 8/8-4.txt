@@ -1,0 +1,21 @@
+words = input('Enter words: ')
+words = words.split()
+
+# Get the word and the letters of the word in alphabetical order
+word1 = words[0]
+letters1 = list(word1)
+letters1.sort()
+#
+word2 = words[1]
+letters2 = list(word2)
+letters2.sort()
+
+# Check they have the same letters
+if letters1 == letters2:
+  # Check the first and last letters are the same
+  if word1[0] == word2[0] and word1[-1] == word2[-1]:
+    print('Super Anagram!')
+  else:
+    print('Huh?')
+else:
+  print('Huh?')

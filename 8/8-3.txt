@@ -1,0 +1,15 @@
+# read in the code
+code = input('code: ')
+
+# split up the code into words, and reverse the order
+code = code.split()
+code.reverse()
+
+# filter the code into words that start with an capital letter
+msg = []
+for word in code:
+  if word[0].isupper():
+    msg.append(word.lower())
+
+# output the hidden message
+print('says: ' + ' '.join(msg))

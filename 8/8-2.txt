@@ -1,0 +1,12 @@
+cars = input('Cars: ')
+cars = cars.split()
+
+red = blue = 0
+for car in cars:
+  if car == 'red':
+    red += 1
+  elif car == 'blue':
+    blue += 1
+
+print('red:', red)
+print('blue:', blue)

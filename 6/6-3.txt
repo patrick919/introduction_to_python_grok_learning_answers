@@ -1,0 +1,7 @@
+students = input('Students: ')
+students = students.split()
+students.sort()
+
+print('Class Roll')
+for student in students:
+  print(student)
